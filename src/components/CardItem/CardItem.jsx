@@ -14,7 +14,7 @@ function CardItem({comItem, isImg, isLink}) {
         flexDirection: 'column',
         justifyContent: 'space-between',
         alignItems: 'center',
-        background: 'linear-gradient(45deg, #1976d2 16%, #07b2f0 25%)'
+        background: 'linear-gradient(45deg, #1976d2 16%, #ffffff 25%)'
       }}
     >
       {isImg ?
