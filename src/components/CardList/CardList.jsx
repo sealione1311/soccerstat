@@ -3,7 +3,6 @@ import {  useState } from 'react';
 import CardItem from '../CardItem/CardItem';
 import PaginationBtn from '../PaginationBtn/PaginationBtn';
 
-
 function CardList({competitionsCount, competitions, isImg, isLink}) {
 
   const[page, setPage] = useState(1);

@@ -1,11 +1,8 @@
 import {Card, CardMedia, CardContent, CardActions, Typography} from '@mui/material';
 import {Link} from 'react-router-dom'
+
 function CardItem({comItem, isImg, isLink}) {
-  console.log(isImg)
-
   return (
-
-
     <Card
       sx={{
         minWidth: 320,

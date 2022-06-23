@@ -3,10 +3,9 @@ import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import { Link } from 'react-router-dom';
 
 function Header() {
-  const pages = ['competitions', 'teams']
-;
-  return (
+  const pages = ['competitions', 'teams'];
 
+  return (
     <AppBar position="static">
       <Toolbar>
       <IconButton>

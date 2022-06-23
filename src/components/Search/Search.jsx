@@ -1,10 +1,7 @@
 import { FormControl } from '@mui/material';
 import TextField from '@mui/material/TextField';
 
-
-
 function Search({query, setFilter}) {
-
   const handleChange = (event) => {
     setFilter(
       {query: event.target.value
