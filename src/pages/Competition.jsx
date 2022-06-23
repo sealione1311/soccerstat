@@ -39,7 +39,7 @@ function Competetition() {
   const {id} = useParams();
 
   async function fetchCompetition() {
-    const competitionData = await Api.getCompetition(`http://api.football-data.org/v2/competitions/${id}/matches`);
+    const competitionData = await Api.getCompetition(`https://api.football-data.org/v2/competitions/${id}/matches`);
     setMatches(competitionData.matches)
   };
 
